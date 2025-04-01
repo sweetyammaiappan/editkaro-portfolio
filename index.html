@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Editkaro.in Portfolio</h1>
+        <nav>
+            <ul>
+                <li><button onclick="filterVideos('all')">All</button></li>
+                <li><button onclick="filterVideos('short')">Short Videos</button></li>
+                <li><button onclick="filterVideos('long')">Long Videos</button></li>
+                <li><button onclick="filterVideos('gaming')">Gaming</button></li>
+                <li><button onclick="filterVideos('football')">Football Edits</button></li>
+                <li><button onclick="filterVideos('ads')">Ads</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="video-gallery">
+            <div class="video" data-category="Short Video">
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/668nUCeBHyY?si=LtUrIWgLWcXKad1L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    	    <p>Short Video</p>
+            </div>
+            <div class="video" data-category="Long Video">
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/KLuTLF3x9sA?si=SO3i1C6VxEqqvlvG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	    <p>Long Video</p>
+            </div>
+            <div class="video" data-category="Gaming Video">
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/GyO1MtLhyt0?si=mj0s6b0z8fOeDvFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Gaming Video</p>
+	    </div>
+            <div class="video" data-category="Football Edit">
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/SNgOiHaf5hQ?si=GA2mbAMNTQcaPg4L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    	    <p>Football Edit</p>
+	    </div>
+	    <div class="video" data-category="Ad Video">
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/kpHBxLqkikw?si=XXI2eS9hYja1pj-x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    	    <p>Ad Video</p>
+	    </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Editkaro.in | Designed for Vault of Codes</p>
+    </footer>
+</body>
+</html>
